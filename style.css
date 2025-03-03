@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #311432;
+    color: #F7E5D6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logo / Title */
+div strong {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F7E5D6;
+}
+
+div strong em {
+    font-style: italic;
+    color: #FCD977;
+}
+
+/* Navbar */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #F7E5D6;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header Quote */
+header {
+    margin-top: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+.headerMe {
+    margin-top: -2px;
+}
+
+/* About Section */
+#about {
+    margin-top: 28px;
+}
+
+#about img {
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    border: 3px solid #F7E5D6;
+    margin-bottom: 19px;
+}
+
+#about h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #FCD977;
+}
+
+#about p {
+    font-size: 16px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* Education Section */
+#my-education {
+    margin-top: 50px;
+    max-width: 0 auto;
+    justify-self: anchor-center;
+    display: grid;
+}
+
+#my-education h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color: #FCD977;
+}
+
+#my-education div {
+    margin: 10px 0;
+    display: inline-flex;
+}
+
+#my-education img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.schoolName {
+    font-weight: 100;
+    align-items: center;
+    padding-left: 11px;
+    text-align: left;
+}
+strong.schoolTxt {
+    font-size: 15px;
+}
+
+
+/* Skills Section */
+#my-skills {
+    margin-top: 50px;
+}
+
+#my-skills h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #FCD977;
+    margin-top: 25px;
+}
+
+#my-skills ul {
+    list-style: none;
+}
+
+#my-skills li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Contact Section */
+#contact-me {
+    margin-top: 50px;
+}
+
+#contact-me h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    color: #FCD977;
+}
+
+#contact-me p,
+#contact-me ul {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#contact-me ul {
+    list-style: none;
+}
+
+#contact-me a {
+    color: #FCD977;
+    text-decoration: none;
+}
+
+#contact-me a:hover {
+    text-decoration: underline;
+}
